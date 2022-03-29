@@ -1,0 +1,65 @@
+.about {
+  padding: 0 8% 8% 8%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  .card {
+    background: #fff3eb;
+    border-radius: 16px;
+    @extend %flex_column;
+    @extend %center;
+    gap: 25px;
+    padding: 25px;
+
+    img {
+      width: 70px;
+    }
+    span {
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      color: #444b51;
+    }
+    p {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+      text-align: center;
+      color: #444b51;
+      margin: 0;
+    }
+  }
+  .card2 {
+    background: #ecedff;
+    border-radius: 16px;
+  }
+  .card3 {
+    background: #ffecf1;
+    border-radius: 16px;
+  }
+  .card4 {
+    background: #f7f7f7;
+    border-radius: 16px;
+  }
+  .card5 {
+    background: #fffaec;
+    border-radius: 16px;
+  }
+  .card6 {
+    background: #fff3eb;
+    border-radius: 16px;
+  }
+  .card7 {
+    background: #eefff3;
+    border-radius: 16px;
+  }
+  .card8 {
+    background: #ffecf1;
+    border-radius: 16px;
+  }
+  .card9 {
+    background: #ecedff;
+    border-radius: 16px;
+  }
+}
